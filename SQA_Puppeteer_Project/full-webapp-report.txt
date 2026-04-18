@@ -1,0 +1,524 @@
+==========================================================================================
+  PIXELSSUITE - COMPLETE WEBAPP FULL TEST AUTOMATION REPORT
+==========================================================================================
+
+GLOBAL EXECUTION SUMMARY
+──────────────────────────────────────────────────────────────────────────────────────────
+Generated: 4/17/2026, 8:07:16 PM
+Total Execution Time: 79.30 seconds
+Total Test Suites: 11
+
+Overall Results:
+  Total Tests: 66
+  Passed: 61 ✅
+  Failed: 0 ❌
+  Info/Skipped: 5 ℹ️
+  Pass Rate: 92.42%
+
+==========================================================================================
+DETAILED SUITE REPORTS
+==========================================================================================
+
+📋 TEST SUITE: Flip Image
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 74.85 seconds
+Tests: 6 | Passed: 6 | Failed: 0 | Info: 0
+Pass Rate: 100.00%
+
+[1] Navigate to Flip Image Page
+    Status: PASS
+    Reason: Flip Image page loaded successfully
+    Time: 8:06:01 PM
+    Details:
+      - url: https://www.pixelssuite.com/flip-image
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:02 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:06:05 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 16 action buttons
+    Time: 8:06:05 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:06:05 PM
+
+[6] Download Option Available
+    Status: PASS
+    Reason: Download button found
+    Time: 8:06:05 PM
+    Details:
+      - buttons: Download PNG
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Rotate Image
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 68.26 seconds
+Tests: 6 | Passed: 6 | Failed: 0 | Info: 0
+Pass Rate: 100.00%
+
+[1] Navigate to Rotate Image Page
+    Status: PASS
+    Reason: Rotate Image page loaded successfully
+    Time: 8:06:08 PM
+    Details:
+      - url: https://www.pixelssuite.com/rotate-image
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:08 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:06:11 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 19 action buttons
+    Time: 8:06:11 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:06:12 PM
+
+[6] Download Option Available
+    Status: PASS
+    Reason: Download button found
+    Time: 8:06:12 PM
+    Details:
+      - buttons: Download Rotated
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Meme Generator
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 60.99 seconds
+Tests: 6 | Passed: 6 | Failed: 0 | Info: 0
+Pass Rate: 100.00%
+
+[1] Navigate to Meme Generator Page
+    Status: PASS
+    Reason: Meme Generator page loaded successfully
+    Time: 8:06:15 PM
+    Details:
+      - url: https://www.pixelssuite.com/meme-generator
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:16 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:06:18 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 15 action buttons
+    Time: 8:06:19 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:06:19 PM
+
+[6] Download Option Available
+    Status: PASS
+    Reason: Download button found
+    Time: 8:06:19 PM
+    Details:
+      - buttons: Download Meme
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Image to Text (OCR)
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 54.30 seconds
+Tests: 6 | Passed: 4 | Failed: 0 | Info: 2
+Pass Rate: 66.67%
+
+[1] Navigate to Image to Text (OCR) Page
+    Status: PASS
+    Reason: Image to Text (OCR) page loaded successfully
+    Time: 8:06:22 PM
+    Details:
+      - url: https://www.pixelssuite.com/image-to-text
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:22 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:06:25 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 18 action buttons
+    Time: 8:06:25 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: INFO
+    Reason: No preview area detected
+    Time: 8:06:25 PM
+
+[6] Download Option Available
+    Status: INFO
+    Reason: Download button not found
+    Time: 8:06:25 PM
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Compress Image
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 47.66 seconds
+Tests: 6 | Passed: 6 | Failed: 0 | Info: 0
+Pass Rate: 100.00%
+
+[1] Navigate to Compress Image Page
+    Status: PASS
+    Reason: Compress Image page loaded successfully
+    Time: 8:06:28 PM
+    Details:
+      - url: https://www.pixelssuite.com/compress-image
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:29 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:06:32 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 16 action buttons
+    Time: 8:06:32 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:06:32 PM
+
+[6] Download Option Available
+    Status: PASS
+    Reason: Download button found
+    Time: 8:06:32 PM
+    Details:
+      - buttons: Download
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Convert to JPG
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 40.38 seconds
+Tests: 6 | Passed: 6 | Failed: 0 | Info: 0
+Pass Rate: 100.00%
+
+[1] Navigate to Convert to JPG Page
+    Status: PASS
+    Reason: Convert to JPG page loaded successfully
+    Time: 8:06:36 PM
+    Details:
+      - url: https://www.pixelssuite.com/convert-to-jpg
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:36 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:06:39 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 16 action buttons
+    Time: 8:06:39 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:06:39 PM
+
+[6] Download Option Available
+    Status: PASS
+    Reason: Download button found
+    Time: 8:06:40 PM
+    Details:
+      - buttons: Download
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Convert to PNG
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 32.93 seconds
+Tests: 6 | Passed: 6 | Failed: 0 | Info: 0
+Pass Rate: 100.00%
+
+[1] Navigate to Convert to PNG Page
+    Status: PASS
+    Reason: Convert to PNG page loaded successfully
+    Time: 8:06:43 PM
+    Details:
+      - url: https://www.pixelssuite.com/convert-to-png
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:44 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:06:47 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 16 action buttons
+    Time: 8:06:47 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:06:47 PM
+
+[6] Download Option Available
+    Status: PASS
+    Reason: Download button found
+    Time: 8:06:47 PM
+    Details:
+      - buttons: Download
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Resize Image
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 25.86 seconds
+Tests: 6 | Passed: 6 | Failed: 0 | Info: 0
+Pass Rate: 100.00%
+
+[1] Navigate to Resize Image Page
+    Status: PASS
+    Reason: Resize Image page loaded successfully
+    Time: 8:06:50 PM
+    Details:
+      - url: https://www.pixelssuite.com/resize-image
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:51 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:06:54 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 16 action buttons
+    Time: 8:06:54 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:06:54 PM
+
+[6] Download Option Available
+    Status: PASS
+    Reason: Download button found
+    Time: 8:06:54 PM
+    Details:
+      - buttons: Download PNG
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Image to PDF
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 19.12 seconds
+Tests: 6 | Passed: 4 | Failed: 0 | Info: 2
+Pass Rate: 66.67%
+
+[1] Navigate to Image to PDF Page
+    Status: PASS
+    Reason: Image to PDF page loaded successfully
+    Time: 8:06:57 PM
+    Details:
+      - url: https://www.pixelssuite.com/image-to-pdf
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:06:58 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:07:01 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 30 action buttons
+    Time: 8:07:01 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: INFO
+    Reason: No preview area detected
+    Time: 8:07:01 PM
+
+[6] Download Option Available
+    Status: INFO
+    Reason: Download button not found
+    Time: 8:07:01 PM
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: PDF Editor
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 12.30 seconds
+Tests: 6 | Passed: 5 | Failed: 0 | Info: 1
+Pass Rate: 83.33%
+
+[1] Navigate to PDF Editor Page
+    Status: PASS
+    Reason: PDF Editor page loaded successfully
+    Time: 8:07:04 PM
+    Details:
+      - url: https://www.pixelssuite.com/pdf-editor
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:07:04 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:07:07 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 19 action buttons
+    Time: 8:07:07 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:07:07 PM
+
+[6] Download Option Available
+    Status: INFO
+    Reason: Download button not found
+    Time: 8:07:08 PM
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+📋 TEST SUITE: Crop PNG
+──────────────────────────────────────────────────────────────────────────────────────────
+Duration: 5.46 seconds
+Tests: 6 | Passed: 6 | Failed: 0 | Info: 0
+Pass Rate: 100.00%
+
+[1] Navigate to Crop PNG Page
+    Status: PASS
+    Reason: Crop PNG page loaded successfully
+    Time: 8:07:10 PM
+    Details:
+      - url: https://www.pixelssuite.com/crop-png
+
+[2] File Upload Input Available
+    Status: PASS
+    Reason: File upload input found on the page
+    Time: 8:07:11 PM
+
+[3] Upload Image File
+    Status: PASS
+    Reason: Image uploaded successfully
+    Time: 8:07:14 PM
+    Details:
+      - filename: Gemini_Generated_Image_u6tjqnu6tjqnu6tj.png
+
+[4] Action Buttons Available
+    Status: PASS
+    Reason: Found 16 action buttons
+    Time: 8:07:14 PM
+    Details:
+      - sample_buttons: ☰, PixelsSuite, Document Converter ▾, Editor ▾, Resize ▾
+
+[5] Preview/Canvas Area Available
+    Status: PASS
+    Reason: Canvas or preview area detected
+    Time: 8:07:14 PM
+
+[6] Download Option Available
+    Status: PASS
+    Reason: Download button found
+    Time: 8:07:14 PM
+    Details:
+      - buttons: Download
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+==========================================================================================
+EXECUTION COMPLETE
+==========================================================================================
